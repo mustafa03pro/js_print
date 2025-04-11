@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(187, 223, 187);
+    
+}
+h2{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+  
+}
+form{
+    
+    
+    background-color:white;
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+    
+}
+.bo{
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 20px;
+    width: 150px;
+    border: 2px solid rgb(148, 203, 203);
+    border-radius: 5px;
+    
+    
+}
+    
+
+.b1{
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    
+    height: 20px;
+    width: 150px;
+    border: 2px solid rgb(148, 203, 203);
+    border-radius: 5px;
+   
+}
+    
+.l1{
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    
+}
+.l2{
+    padding-left: 150px;
+    margin-bottom: 10px;
+    
+}
+.et{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.i1{
+    height: 25px;
+    width: 200px;
+    margin-top: 10;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(148, 203, 203);
+}
+.i2{
+    height: 25px;
+    width: 200px;
+    margin-top: 10;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(154, 199, 197, 0.537);
+}
+.em{
+    height: 25px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(142, 193, 199);
+}
+.ma{
+    display: flex;
+}
+.mb{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 60px;
+    width: 500px;
+    border: 2px solid rgb(142, 193, 199);
+    border-radius: 5px;
+}
+.me{
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+.te{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.bu{
+    align-content: center;
+
+}
+.buu{
+    height: 30px;
+    width: 530px;
+    margin-left: 25px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgb(36, 147, 36);
+    border: 2px solid rgb(7, 10, 11);
+    border-radius: 5px;
+}
