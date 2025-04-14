@@ -1,0 +1,15 @@
+let salary=50000;
+let bounus=5000;
+let tax=4000;
+let name="vishal";
+let id=3033;
+let department="front-end";
+let total;
+total=salary+bounus-tax;
+document.writeln("name=vishal<br>");
+document.writeln("id=",id);
+document.writeln("<br>");
+document.writeln("salary=",salary);document.writeln("<br>");
+document.writeln("bounus=",bounus);document.writeln("<br>");
+document.writeln("tax=",tax);document.writeln("<br>");
+document.writeln("total=",total);
