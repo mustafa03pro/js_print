@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let prize,qty,total;
+        const taxrate=0.08;
+        let discountrate=0.15;
+        let item1prize=100;
+        let item1qty=2;
+
+        let item2prize=350;
+        let item2qty=3;
+        let subtotal=(item1prize*item1qty)+(item2prize*item2qty);
+        let discount=subtotal*discountrate;
+        let tax=(subtotal-discount)*taxrate;
+        let finalTotal=subtotal-discount+tax;
+        console.log(`Subtotal=${subtotal}<br>`);
+        console.log(`Discount=${discount}<br>`);
+        console.log(`total tax=${tax}<br>`);
+        console.log(`finaltotal=${finalTotal}`);
+        let a; 
+        console.log(a);
+
+
+
+
+    </script>
+</body>
+</html>

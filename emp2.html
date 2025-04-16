@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let na=prompt("enter the employe name");
+        let id=prompt("enter the emp ID:");
+        let loc=prompt("eneter the loction:");
+        let exp=Number(prompt('enter the experience:'));
+        function change(){
+            exp+=2;
+            newloc=prompt("enetyr the new location:");
+            newexp=Number(prompt('enter the experience:'));
+            document.write(`name=${na}<br>Id=${id}<br>Location=${newloc}<br>Experience=${newexp}`);
+        }
+        change();
+    </script>
+</body>
+</html>
