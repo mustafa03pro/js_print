@@ -1,12 +1,34 @@
+<!-- html with js implementations -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="v.js"></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTf-8">
+  </heaD>
+  <body>
+	<h3>finding sum of 2 numbers</h3>
+	<label for="firstNum">First number</label> <br>
+	<input type="text" id="firstNum"> <bR>
+	<label for="secNum">Second number</label> <br>
+	<input type="text" id="secNum"> <br>
+	<button onclick="addition()">Addition</button>
+	<br>
+	<output id="op"></output>
+	
+	<script>
+	  //function defination
+	  function addition()
+	  {
+		let x,y,res;	//local vars
+		//data coll
+		x=+firstNum.value;
+		y=+secNum.value;
+		res=x+y;
+		//displaying op
+		//document.write("Sum is "+res);	or
+		//alert("Sum is "+res);	 or
+		//console.log("Sum is "+res);	or
+		op.value="Sum is "+res;
+	  }	
+	</script>	   
+  </body>
 </html>
